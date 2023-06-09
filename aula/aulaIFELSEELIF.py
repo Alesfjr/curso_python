@@ -37,12 +37,12 @@ if 10 == 10:
 
 print('Fora do if')
 '''
-print('Para entrar no sistema é preciso de nos indique algumas informações' )
+'''print('Para entrar no sistema é preciso de nos indique algumas informações' )
 
 nome =input('Nome:')
 sobrenome =input('Sobrenome:')
 idade=int(input('idade:'))
-confirme =1 or 0
+raca=''
 if idade>=18:
     raca=input('Raça:')
 
@@ -53,18 +53,45 @@ else:
     confirme=input('Podemos confirmar suas informações?(digite "1" para sim  ou "0" para não):')
 
 
-if confirme==1:
+if confirme=='1':
      print(f'Nome:{nome}')
      print(f'Sobrenome:{sobrenome}')
      print(f'Idade;{idade}')
      print(f'Raça:{raca}')
 
-elif confirme==0:
+elif confirme=='0':
     print('Saida')
 
 else:
     print('Não entendi')
+'''
 
+print('Para entrar no sistema, é preciso que você indique algumas informações.')
+
+nome = input('Nome: ')
+sobrenome = input('Sobrenome: ')
+idade = int(input('Idade: '))
+raca = ''
+
+if idade >= 18:
+    raca = input('Raça: ')
+else:
+    print('Você não tem a idade adequada.')
+    print('Volte quando tiver 18 anos.')
+
+confirme = input(f'Podemos confirmar suas informações? (digite 1 para sim ou 0 para não): ')
+
+if confirme == '1':
+    print(f'Nome: {nome}')
+    print(f'Sobrenome: {sobrenome}')
+    print(f'Idade: {idade}')
+    print(f'Raça: {raca}')
+
+elif confirme == '0':
+    print('Saída')
+
+else:
+    print('Não entendi')
 
 
        
