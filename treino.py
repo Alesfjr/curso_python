@@ -20,7 +20,7 @@ if imp=='sim':
     elif palpite=='nao'or 'não':
         tentativa1= ano+1
         tentativa2=ano-1
-        print(f'Então,você nasceu entre {tentativa1} e {tentativa2}')
+        print(f'Então,você nasceu entre {tentativa1} e {tentativa2}') 
 elif imp=='nao'or 'não':
      print('Ok,vamos continuar')
 else:
@@ -31,7 +31,7 @@ print(f'Bom {nome[::-1]} ,vamos continuar com as perguntas')
 print('erro404')
 print('tive um erro de calculo')
 print(f'Bom {nome} ,vamos continuar com as perguntas hehe')
-
+ 
 
     
     

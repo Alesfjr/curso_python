@@ -22,7 +22,7 @@ valor_2=int(
 
 print(f'{nome},a soma dos dois valores é de {valor_1+valor_2}')
 
-#  MAS É MELHOR USAR PUTRO METODO 
+#  MAS É MELHOR USAR OUTRO METODO 
 
 nome1=input('Qual seu nome?')
 print(f'{nome1}, seu nome foi coletado com sucesso!')
