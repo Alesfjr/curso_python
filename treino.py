@@ -31,6 +31,7 @@ print(f'Bom {nome[::-1]} ,vamos continuar com as perguntas')
 print('erro404')
 print('tive um erro de calculo')
 print(f'Bom {nome} ,vamos continuar com as perguntas hehe')
+
  
 
     
