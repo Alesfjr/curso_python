@@ -29,7 +29,7 @@ while True:
         print('Digite um unico operador')
         continue
     print('Realizando calculo')
-    if operador =='+':
+    if operador =='+': 
         print(n1_float+n2_float)
     elif operador =='-':
             
