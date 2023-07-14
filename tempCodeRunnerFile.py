@@ -1,2 +1,1 @@
-
-print(f'Bom {nome} ,vamos contin
+    print(senha_formada)

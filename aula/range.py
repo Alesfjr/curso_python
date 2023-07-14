@@ -7,5 +7,5 @@ numeros=range(0,10,2)
 nana='nanaunaha'
 
 
-for valor in numeros:
+for valor in  numeros:
     print(valor)
